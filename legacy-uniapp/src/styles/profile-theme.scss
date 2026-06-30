@@ -1,0 +1,120 @@
+$profile-theme-bg: '/static/profile-theme-bg.png';
+$profile-theme-text: #ffffff;
+$profile-theme-text-muted: rgba(255, 255, 255, 0.7);
+$profile-theme-accent: #ffb145;
+$profile-theme-border: rgba(255, 255, 255, 0.15);
+$profile-theme-shadow: 0 4upx 16upx rgba(0, 0, 0, 0.1);
+
+.profile-theme-page {
+  position: relative;
+  min-height: 100vh;
+  color: $profile-theme-text;
+  background: #000000;
+  overflow: hidden;
+}
+
+.profile-theme-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.profile-theme-backdrop__image {
+  width: 100%;
+  height: 100%;
+}
+
+.profile-theme-backdrop__wash {
+  display: none;
+}
+
+.profile-theme-backdrop__grain {
+  display: none;
+}
+
+.profile-theme-content {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-theme-panel {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1upx solid rgba(255, 255, 255, 0.1);
+  box-shadow: $profile-theme-shadow;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.profile-theme-panel--strong {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.profile-theme-section-title {
+  display: block;
+  margin-bottom: 18upx;
+  font-size: 24upx;
+  letter-spacing: 6upx;
+  text-transform: uppercase;
+  color: $profile-theme-text-muted;
+}
+
+.profile-theme-page-title {
+  display: block;
+  font-size: 46upx;
+  line-height: 1.18;
+  font-weight: 700;
+  color: $profile-theme-text;
+}
+
+.profile-theme-page-desc {
+  display: block;
+  margin-top: 12upx;
+  font-size: 26upx;
+  line-height: 1.7;
+  color: $profile-theme-text-muted;
+}
+
+.profile-theme-arrow {
+  font-size: 36upx;
+  line-height: 1;
+  color: rgba(255, 244, 222, 0.7);
+}
+
+.profile-theme-primary-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999upx;
+  background: linear-gradient(135deg, #ffdd8d, #ff9940);
+  color: #3b1202;
+  font-size: 30upx;
+  font-weight: 700;
+  box-shadow: 0 20upx 40upx rgba(255, 129, 0, 0.32);
+}
+
+.profile-theme-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80upx 40upx;
+  text-align: center;
+}
+
+.profile-theme-empty__title {
+  display: block;
+  font-size: 42upx;
+  color: $profile-theme-text;
+  font-weight: 700;
+}
+
+.profile-theme-empty__desc {
+  display: block;
+  margin-top: 18upx;
+  font-size: 28upx;
+  line-height: 1.7;
+  color: $profile-theme-text-muted;
+}

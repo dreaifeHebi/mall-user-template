@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="Home goods category image">
+  <rect width="640" height="420" fill="#fefce8"/>
+  <path d="M155 228l165-128 165 128v120H155z" fill="#ca8a04"/>
+  <rect x="270" y="250" width="100" height="98" rx="14" fill="#fef9c3"/>
+  <text x="320" y="382" fill="#713f12" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Home Goods</text>
+</svg>

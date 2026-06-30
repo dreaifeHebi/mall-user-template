@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-label="Everyday carry category image">
+  <rect width="640" height="420" fill="#f5f3ff"/>
+  <rect x="218" y="112" width="204" height="210" rx="42" fill="#7c3aed"/>
+  <path d="M250 118c0-42 28-70 70-70s70 28 70 70" fill="none" stroke="#4c1d95" stroke-width="24" stroke-linecap="round"/>
+  <text x="320" y="370" fill="#4c1d95" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Everyday Carry</text>
+</svg>

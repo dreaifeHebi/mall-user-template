@@ -1,0 +1,55 @@
+name: Build and Sync to S3
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "Sync H5 build output to S3-compatible static hosting"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+        env:
+          VITE_API_BASE_URL: ${{ vars.USER_API_BASE_URL || 'http://localhost:8085/portal' }}
+          VITE_FRONTEND_BASE_URL: ${{ vars.USER_FRONTEND_BASE_URL || 'http://localhost:8060' }}
+          VITE_BACKEND_BASE_URL: ${{ vars.USER_BACKEND_BASE_URL || 'http://localhost:8085' }}
+
+      - name: Configure AWS credentials
+        if: inputs.deploy == 'true'
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ vars.AWS_REGION || 'us-east-1' }}
+
+      - name: Sync to S3
+        if: inputs.deploy == 'true'
+        run: aws s3 sync dist "s3://${S3_BUCKET}/" --delete --region "${AWS_REGION}"
+        env:
+          S3_BUCKET: ${{ vars.USER_S3_BUCKET }}
+          AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}

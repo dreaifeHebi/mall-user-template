@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-label="Urban Nest brand image">
+  <rect width="720" height="360" fill="#1e293b"/>
+  <rect x="72" y="95" width="145" height="145" rx="32" fill="#f8fafc"/>
+  <path d="M104 170h82M145 128v84" stroke="#f97316" stroke-width="20" stroke-linecap="round"/>
+  <text x="285" y="170" fill="#ffffff" font-family="Arial, sans-serif" font-size="56" font-weight="700">Urban Nest</text>
+  <text x="289" y="218" fill="#fed7aa" font-family="Arial, sans-serif" font-size="24">Compact home and travel essentials</text>
+</svg>

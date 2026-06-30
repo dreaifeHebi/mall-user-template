@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-label="Bluetooth speaker product image">
+  <rect width="720" height="720" fill="#f8fafc"/>
+  <rect x="180" y="190" width="360" height="340" rx="60" fill="#134e4a"/>
+  <circle cx="285" cy="360" r="92" fill="#2dd4bf"/>
+  <circle cx="435" cy="360" r="92" fill="#14b8a6"/>
+  <circle cx="285" cy="360" r="44" fill="#0f172a"/>
+  <circle cx="435" cy="360" r="44" fill="#0f172a"/>
+  <rect x="300" y="145" width="120" height="38" rx="19" fill="#0f172a"/>
+  <text x="360" y="590" fill="#134e4a" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Bluetooth Speaker</text>
+</svg>
