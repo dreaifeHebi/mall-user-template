@@ -17,6 +17,11 @@ const form = reactive({
   email: ''
 })
 
+const previewAccount = {
+  username: 'demo_user',
+  password: '123456'
+}
+
 watch(
   () => route.query.mode,
   value => {
@@ -24,6 +29,12 @@ watch(
   },
   { immediate: true }
 )
+
+function fillPreviewAccount() {
+  form.username = previewAccount.username
+  form.password = previewAccount.password
+  form.email = ''
+}
 
 async function submit() {
   error.value = ''
@@ -68,6 +79,13 @@ async function submit() {
             <input v-model="form.password" type="password" autocomplete="current-password" required />
           </div>
         </label>
+        <div v-if="mode === 'login'" class="preview-account">
+          <div>
+            <span>Preview account</span>
+            <strong>{{ previewAccount.username }} / {{ previewAccount.password }}</strong>
+          </div>
+          <button type="button" @click="fillPreviewAccount">Fill</button>
+        </div>
         <label v-if="mode === 'register'">
           <span>Email</span>
           <div>

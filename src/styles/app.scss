@@ -2236,6 +2236,44 @@ img {
   outline: 0;
 }
 
+.preview-account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-muted);
+  padding: 12px 14px;
+}
+
+.preview-account div {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+
+.preview-account span {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.preview-account strong {
+  overflow-wrap: anywhere;
+  font-size: 14px;
+}
+
+.preview-account button {
+  flex: 0 0 auto;
+  height: 32px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .auth-form .primary-button,
 .auth-switch {
   width: 100%;
