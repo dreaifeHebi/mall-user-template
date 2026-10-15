@@ -88,6 +88,6 @@ npm run preview     # 本地预览构建结果（端口 8060）
 
 ## 许可证
 
-仓库根目录暂未附带 LICENSE 文件。
+基于 [Apache License 2.0](./LICENSE) 发布。
 
 本项目改造自 [macrozheng/mall](https://github.com/macrozheng/mall) 及其前台项目 [macrozheng/mall-app-web](https://github.com/macrozheng/mall-app-web)（均为 Apache-2.0），感谢原作者。
