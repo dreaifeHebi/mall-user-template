@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-label="Commuter backpack product image">
+  <rect width="720" height="720" fill="#fff7ed"/>
+  <path d="M240 230c0-75 45-125 120-125s120 50 120 125" fill="none" stroke="#7c2d12" stroke-width="38" stroke-linecap="round"/>
+  <rect x="210" y="205" width="300" height="360" rx="54" fill="#fb923c"/>
+  <rect x="255" y="265" width="210" height="120" rx="24" fill="#fed7aa"/>
+  <rect x="255" y="420" width="210" height="82" rx="24" fill="#9a3412" opacity="0.86"/>
+  <text x="360" y="625" fill="#7c2d12" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Commuter Backpack</text>
+</svg>

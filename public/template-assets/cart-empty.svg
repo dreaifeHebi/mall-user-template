@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360" role="img" aria-labelledby="title desc">
+  <title id="title">Empty cart</title>
+  <desc id="desc">A clean local placeholder image for an empty shopping cart.</desc>
+  <rect width="520" height="360" rx="28" fill="#eef6f5"/>
+  <circle cx="404" cy="82" r="42" fill="#d8ebe8"/>
+  <circle cx="112" cy="286" r="52" fill="#d8ebe8"/>
+  <path d="M141 115h44l28 112h170l30-78H228" fill="none" stroke="#0f766e" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M222 227h154" fill="none" stroke="#0b5f59" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="240" cy="266" r="18" fill="#172033"/>
+  <circle cx="355" cy="266" r="18" fill="#172033"/>
+  <path d="M242 171h118" fill="none" stroke="#14b8a6" stroke-width="14" stroke-linecap="round"/>
+  <path d="M260 196h82" fill="none" stroke="#14b8a6" stroke-width="14" stroke-linecap="round"/>
+  <text x="260" y="324" text-anchor="middle" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">Cart is ready</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-label="Wireless keyboard product image">
+  <rect width="720" height="720" fill="#ecfeff"/>
+  <rect x="105" y="225" width="510" height="270" rx="36" fill="#0f172a"/>
+  <rect x="145" y="270" width="430" height="150" rx="18" fill="#334155"/>
+  <g fill="#67e8f9">
+    <rect x="170" y="292" width="42" height="30" rx="7"/>
+    <rect x="226" y="292" width="42" height="30" rx="7"/>
+    <rect x="282" y="292" width="42" height="30" rx="7"/>
+    <rect x="338" y="292" width="42" height="30" rx="7"/>
+    <rect x="394" y="292" width="42" height="30" rx="7"/>
+    <rect x="450" y="292" width="42" height="30" rx="7"/>
+    <rect x="506" y="292" width="42" height="30" rx="7"/>
+    <rect x="170" y="342" width="378" height="42" rx="9"/>
+  </g>
+  <text x="360" y="575" fill="#0f172a" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Wireless Keyboard</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-label="Nova Supply brand image">
+  <rect width="720" height="360" fill="#0f766e"/>
+  <circle cx="150" cy="180" r="82" fill="#ccfbf1"/>
+  <path d="M108 190l42-88 42 88 42-88" fill="none" stroke="#0f172a" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="285" y="170" fill="#ffffff" font-family="Arial, sans-serif" font-size="56" font-weight="700">Nova Supply</text>
+  <text x="289" y="218" fill="#ccfbf1" font-family="Arial, sans-serif" font-size="24">Desk gear and daily electronics</text>
+</svg>

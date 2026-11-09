@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mall Storefront">
+  <rect width="64" height="64" rx="16" fill="#0f766e"/>
+  <path d="M14 25h36l-3-10H17l-3 10Z" fill="#fef3c7"/>
+  <path d="M17 25h6v7a3 3 0 0 1-6 0v-7Zm12 0h6v7a3 3 0 0 1-6 0v-7Zm12 0h6v7a3 3 0 0 1-6 0v-7Z" fill="#14b8a6"/>
+  <path d="M19 34h26v17H19V34Z" fill="#ffffff"/>
+  <path d="M25 40h14v11H25V40Z" fill="#99f6e4"/>
+  <path d="M18 51h28" stroke="#134e4a" stroke-width="4" stroke-linecap="round"/>
+</svg>
